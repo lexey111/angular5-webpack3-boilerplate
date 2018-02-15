@@ -1,0 +1,25 @@
+import {Component} from '@angular/core';
+
+@Component({
+	selector: 'footer-component',
+	template: `
+		<div class="footer-content">
+			<div class="vendor-logo">
+				<svg-icon src="assets/images/angular.svg"></svg-icon>
+			</div>
+			<div class="vendor-logo">
+				<svg-icon src="assets/images/webpack-icon.svg"></svg-icon>
+			</div>
+
+			<div class="footer-text">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit id ipsam molestiae vitae voluptatem. Debitis
+				harum nam necessitatibus. Accusamus autem fugit non odit quis similique? Cupiditate expedita in necessitatibus
+				perspiciatis.
+			</div>
+		</div>`
+})
+export class FooterComponent {
+	constructor() {
+		//
+	}
+}
