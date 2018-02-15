@@ -34,35 +34,6 @@ export const config = {
 				exclude: /node_modules/,
 				use: '@ngtools/webpack'
 			},
-			// Templates
-			{
-				test: /\.html$/,
-				exclude: /index.html$/i,
-				use: [
-					{
-						loader: 'file-loader',
-						options: {
-							name: 'assets/templates/[name].[ext]'
-						}
-					}
-				]
-			},
-			// .less files - components
-			{
-				test: /\.less$/,
-				exclude: /app\.less$/i,
-				use: [
-					{
-						loader: 'file-loader',
-						options: {
-							name: 'assets/templates/[name].css'
-						}
-					},
-					{
-						loader: 'less-loader',
-					}
-				]
-			},
 			// main application .less file
 			{
 				test: /app\.less$/i,
