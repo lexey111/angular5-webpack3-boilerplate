@@ -1,12 +1,13 @@
-AOT Test
+AOT Test with Webpack 3
 ===
 Includes:
-* Webpack 4
+* Webpack 3
 * TypeScript (config and builder scripts)
 * TypeScript - project
 * Angular 5 boilerplate application
 * LESS suppport
 * SVG support
+* AOT support
 
 Installation
 --
